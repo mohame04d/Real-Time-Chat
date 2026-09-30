@@ -1,16 +1,21 @@
 {
-  "name": "real-time-chat-socket.io",
+  "name": "real-time-chat",
   "version": "1.0.0",
-  "description": "chat-socket.io",
-  "main": "index.js",
+  "description": "Full-Stack Real-Time Chat Application built with React, Node.js, Express, Socket.io, and MongoDB",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "start": "cd server && npm start",
+    "install-all": "cd server && npm install && cd ../client && npm install"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^5.0.1",
-    "express": "^5.2.1",
-    "socket.io": "^4.8.3"
-  }
+  "keywords": [
+    "chat",
+    "real-time",
+    "socket.io",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Mohamed",
+  "license": "MIT"
 }
